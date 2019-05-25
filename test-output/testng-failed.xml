@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="testsss(failed)">
+    <classes>
+      <class name="com.tc.Tcs">
+        <methods>
+          <include name="m3"/>
+        </methods>
+      </class> <!-- com.tc.Tcs -->
+    </classes>
+  </test> <!-- testsss(failed) -->
+</suite> <!-- Failed suite [Suite] -->
